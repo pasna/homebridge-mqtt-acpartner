@@ -1,6 +1,9 @@
 # homebridge-mqtt-acpartner
 a homebridge plugin for IRremoteESP8266 https://github.com/crankyoldgit/IRremoteESP8266
 
+## Note: 
+ If you find bugs, please submit them to issues or QQ Group: 107927710.
+
 ## Installation
 1. Install HomeBridge, please follow it's [README](https://github.com/nfarina/homebridge/blob/master/README.md).   
 If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi).   
