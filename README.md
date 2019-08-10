@@ -9,3 +9,27 @@ If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi
 ```
 npm install -g homebridge-mqtt-acpartner
 ```
+```
+{
+    "bridge": {
+        "name": "mqtt",
+        "username": "B5:99:EB:99:AA:4E",
+        "port": 51198,
+        "pin": "123-11-678"
+    },
+    "accessories": [
+        {
+            "accessory": "acpartner",
+            "name": "美的空调",
+            "serviceType": "HeaterCooler",
+            "mqtttemp": "MICO_B0F893277C32/tmp",
+            "mqtt": {
+               "server": "10.0.0.50:1883",
+               "prefix": "homebridge",
+               "username": "pi",
+               "password": "raspberry"
+            }
+        }
+    ]
+}
+```
