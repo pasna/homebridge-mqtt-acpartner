@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-mqtt-acpartner",
+  "version": "0.0.7",
+  "description": "homebridge(https://github.com/nfarina/homebridge) plugin.",
+  "keywords": [
+    "homebridge-plugin",
+    "mqtt",
+    "ac"
+  ],
+  "homepage": "https://github.com/hassbian-ABC/homebridge-mqtt-acpartner",
+  "author": "hassbian-abc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hassbian-ABC/homebridge-mqtt-acpartner"
+  },
+  "bugs": {
+    "url": "http://github.com/hassbian-ABC/homebridge-mqtt-acpartner/issues"
+  },
+  "dependencies": {
+    "mqtt": "^1.6.3"
+  },
+  "engines": {
+    "node": ">=7.0.0",
+    "homebridge": ">=0.4.1"
+  }
+}
