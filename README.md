@@ -12,6 +12,9 @@ If you are using Raspberry Pi, please read [Running-HomeBridge-on-a-Raspberry-Pi
 ```
 npm install -g homebridge-mqtt-acpartner
 ```
+
+"mqtttemp" is the topic of a mqtt temperature sensor
+
 ```
 {
     "bridge": {
